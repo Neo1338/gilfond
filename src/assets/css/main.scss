@@ -1,0 +1,26 @@
+// глобальные стили
+@import './base.scss';
+
+#app {
+  padding: 50px;
+  min-width: 875px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--vt-c-title);
+  margin-top: 30px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--vt-c-gray);
+}
+
+._error {
+  color: var(--vt-c-red);
+}

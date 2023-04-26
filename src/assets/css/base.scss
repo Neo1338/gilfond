@@ -1,0 +1,42 @@
+// переменные и база
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-bg: #f5f5f5;
+  --vt-c-bg-gray: #fdfdfd;
+  --vt-c-black: #000000;
+  --vt-c-title: #333333;
+  --vt-c-red: #e31f24;
+  --vt-c-gray: #76787d;
+  --vt-c-border: #e9ecef;
+  --vt-c-cell: #e0e0e0;
+}
+
+:root {
+  --color-background: var(--vt-c-bg);
+  --color-heading: var(--vt-c-red);
+  --color-text: var(--vt-c-gray);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
